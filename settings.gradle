@@ -1,1 +1,8 @@
 rootProject.name = 'test2'
+
+sourceControl {
+    gitRepository("https://github.com/penguinniisan/test1.git") {
+        producesModule("net.logic_lab.mc.test:test1")
+    }
+}
+
